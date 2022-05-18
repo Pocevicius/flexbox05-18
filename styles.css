@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: azure;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 6rem;
+}
+.ikiLogo {
+  width: 6rem;
+}
+nav a {
+  margin-left: 1rem;
+}
+nav a:first-child {
+  margin-left: unset;
+}
+main {
+  min-height: 40rem;
+  background-image: url(https://madeinvilnius.lt/wp-content/uploads/2017/05/bananas-698608_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 3rem 0;
+}
+.one {
+  background-color: aliceblue;
+  max-width: 50rem;
+  margin: 0 auto;
+  min-height: 20rem;
+  border-radius: 10px;
+  box-shadow: 15px -13px 32px -9px rgba(0, 0, 0, 0.54);
+  -webkit-box-shadow: 15px -13px 32px -9px rgba(0, 0, 0, 0.54);
+  -moz-box-shadow: 15px -13px 32px -9px rgba(0, 0, 0, 0.54);
+  padding: 1rem;
+}
+.ikiPast {
+  float: left;
+  padding: 1rem 1rem;
+}
+footer {
+  text-align: center;
+}
+.form_cont {
+  display: flex;
+  flex-direction: column;
+}
+button {
+  margin: 1rem;
+  background-color: rgb(179, 223, 133);
+  border: unset;
+  text-decoration: none;
+  width: 5rem;
+}
+button:hover {
+  background-color: green;
+}
+table {
+  border-collapse: collapse;
+  margin-top: 1rem;
+  width: 100%;
+  text-align: center;
+}
+table tr,
+th,
+td {
+  border: solid rgb(107, 107, 107) 3px;
+}
+tr td:first-child {
+  color: rgb(97, 201, 97);
+}
+.koma {
+  color: chartreuse;
+}
